@@ -9,7 +9,7 @@ which enables files to be encrypted to age identities stored on YubiKeys.
 The identity format and technical details might change between iterations.
 Consider this plugin experimental.
 
-Insteal of utilizing the TPM directly, you can use `--swtpm` or `export
+Instead of utilizing the TPM directly, you can use `--swtpm` or `export
 AGE_PLUGIN_TPM_SWTPM=1` to create a identity backed by
 [swtpm](https://github.com/stefanberger/swtpm) which will be stored under
 `/var/tmp/age-plugin-tpm`.
